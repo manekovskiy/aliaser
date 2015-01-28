@@ -100,7 +100,7 @@ namespace Aliaser
 
 			// If line starts with '#' character then it is treated as a comment, i.e. not processed.
 			// If line is empty or whitespace string it is not processed.
-			if (line.StartsWith("#") || string.IsNullOrWhiteSpace(line)) return false;
+			if (line.StartsWith("#") || string.IsNullOrEmpty(line)) return false;
 
 			var firstSpaceCharacterIndex = line.IndexOf(' ');
 			if (firstSpaceCharacterIndex < 0)
