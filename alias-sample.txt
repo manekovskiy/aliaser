@@ -1,0 +1,11 @@
+# When the line starts with `#` character it is omitted and treated as comment
+
+   # There could be a couple of whitespace characters before the comment indicator
+
+# Map `..` to `cd ..` command
+.. cd ..
+
+# There must be one or more spaces between alias name and command
+...    cd ..\..
+
+# For more examples see Examples section for DOSKEY utilty at http://ss64.com/nt/doskey.html
