@@ -28,4 +28,4 @@ Usage examples:
 Add aliases to the current console from `myaliases.txt` file:
 
     aliaser -f myaliases.txt
-    aliaser --file myaliases.txt --verbose
+    aliaser --file myaliases.txt --verbose False
